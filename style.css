@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,700&display=swap');
+
+/* Global */
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+}
+
+/* Header */
+header{
+    background-color: #37418f;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding: 5vh 0;
+}
+
+/* Main */
+
+/* Input div */
+div.input-container{
+    width: 20%;
+    margin: auto;
+}
+div.input-container button{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Student list */
+ul{
+    width: 50%;
+    margin: auto;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #575757;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+}
+ul li div i{
+    margin-right: 0.5rem;
+}
+ul li button{
+    color: red;
+    background: none;
+    border: none;
+}
+ul li button:hover{
+    color: rgb(248, 66, 66);
+}
